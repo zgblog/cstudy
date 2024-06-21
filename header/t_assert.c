@@ -1,5 +1,11 @@
+#include<stdio.h>
 #include<assert.h>
+#include<math.h>
 
 int main() {
-    assert(0 == 1);
+    double x = -1.0;
+    assert(x>=0.0);
+    printf("sqrt(x)=%f\n", sqrt(x));
+
+    return 0;
 }
